@@ -17,7 +17,7 @@ jobs:
       - name: install lazarus (Mac)
         if: matrix.os == 'macos-latest'
         run: |
-          brew install lazarus
+          brew install --cask lazarus
           echo /Applications/Lazarus >> $GITHUB_PATH
 
       ## Linux Setup
