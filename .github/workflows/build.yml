@@ -77,27 +77,17 @@ jobs:
           name: SmartSetMasterOffice-${{ runner.os }}
           path: SmartSetMasterOffice
 
-      # - uses: actions/upload-artifact@v1
-      #   with:
-      #     name: SmartSetAdv2-${{ runner.os }}
-      #     path: SmartSetAdv2
-
-      # - uses: actions/upload-artifact@v1
-      #   with:
-      #     name: SmartSetFSEdgePro-${{ runner.os }}
-      #     path: SmartSetFSEdgePro
-
-      # - uses: actions/upload-artifact@v1
-      #   with:
-      #     name: SmartSetSavantElite-${{ runner.os }}
-      #     path: SmartSetSavantElite
+      - uses: actions/upload-artifact@v1
+        with:
+          name: SmartSetAdv2-${{ runner.os }}
+          path: SmartSetAdv2
 
       - uses: actions/upload-artifact@v1
         with:
-          name: SmartSetTKO-${{ runner.os }}
-          path: SmartSetTKO
+          name: SmartSetFSEdgePro-${{ runner.os }}
+          path: SmartSetFSEdgePro
 
       - uses: actions/upload-artifact@v1
         with:
-          name: SmartSetRGB-${{ runner.os }}
-          path: SmartSetRGB
+          name: SmartSetSavantElite-${{ runner.os }}
+          path: SmartSetSavantElite
